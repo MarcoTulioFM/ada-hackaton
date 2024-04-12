@@ -13,8 +13,8 @@ jobs:
       - name: Build Image docker
         id: build_docker
         env:
-          USERNAME: ${{ secret.DOCKER_USERNAME }}
-          PASS: ${{ secret.DOCKER_PASSWORD }}
+          USERNAME: ${{ secrets.DOCKER_USERNAME }}
+          PASS: ${{ secrets.DOCKER_PASSWORD }}
         uses: docker/login-action@v3
         with:
           username: $USERNAME
