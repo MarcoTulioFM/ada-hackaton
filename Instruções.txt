@@ -1,0 +1,8 @@
+**💪 Desafio:**
+
+Vocês fazem parte de um time de consultoria da corpsolution, que foi alocado em um projeto em um zoológico. Vocês terão acesso a um projeto e o desafio é criar pipelines de CI/CD relacionados ao tema de Diversidade e Inclusão e configurar a infraestrutura necessária para hospedar e escalar a aplicação API em Python. Eles devem garantir a automação dos processos de construção, teste e implantação da aplicação, seguindo as melhores práticas de DevOps.
+
+**📦Entregáveis:**
+* Documentação detalhada dos pipelines e infraestrutura criados, incluindo instruções de configuração e operação.
+
+* Apresentação final do projeto, demonstrando os pipelines e infraestrutura implementados e explicando as decisões tomadas durante o processo de desenvolvimento.
