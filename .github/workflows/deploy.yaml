@@ -29,11 +29,15 @@ jobs:
               "${{ secrets.DOCKER_USERNAME}}:zoologico:latest"
             context: ./backend
 
-  CD:
+   CD:
     runs-on: "ubuntu-latest"
     needs: CI
     steps:
-      - name: Apply Infraestructure
+      - name: "Apply Infraestructure"
+        run: |
+          cd terraform
+          terraform init
+
           
 
 
